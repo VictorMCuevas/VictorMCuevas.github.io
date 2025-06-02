@@ -10,25 +10,26 @@
     <link href="styles/styles.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a href="index_en.html">
-                <img class="logo_personal" src="./images/logos/logo_vmbc.png" alt="Logo Personal" style=""></a>
+                <img class="logo_personal" src="./images/logos/logo_vmbc2.png" alt="Logo Personal" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><img src="images/banderas/es.png"
+                        alt="Spanish Flag Logo"></a></li>
                     <li class="nav-item"><a class="nav-link active" href="index_en.html"><h6>Home</h6></a></li>
                     <li class="nav-item"><a class="nav-link" href="memorion.html"><h6>Memorión Project</h6></a></li>
                     <li class="nav-item"><a class="nav-link" href="caculadora_redes.html"><h6>Network Calculator Project</h6></a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="mapas.html"><h6>Maps Project</h6></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html"><img src="images/banderas/es.png"
-                                alt="Spanish Flag Logo"></a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -88,10 +89,11 @@
 
                     <li><strong><img src="/images/logos/person.svg" alt="Nombre">NAME: </strong> Víctor M. Bartolomé
                     </li>
-                    <li><strong><img src="/images/logos/geo-alt.svg" alt="Ubicación">LOCATION: </strong> León, Spain
-                    </li>
-                    <li><strong><img src="images/logos/email.svg" alt="Logo Email">Email:</strong>
-                        victorm.barcue@educa.jcyl.es</li>
+                    <li><strong><img src="/images/logos/geo-alt.svg" alt="Ubicación">LOCATION: </strong><a
+                        href="https://www.google.com/maps/@42.5988367,-5.5998401,10821m/data=!3m1!1e3?authuser=0&entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">León, España</a></li>
+                    <li><strong><img src="images/logos/email.svg" alt="Logo Email">Email:</strong> <a
+                        href="mailto:victorm.barcue@educa.jcyl.es">victorm.barcue@educa.jcyl.es</a></li>
 
                 </div>
             </div>
@@ -146,57 +148,8 @@
         </div>
     </div>
 
-
-
-
-
-
-
-    <div class="col-md-6">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Proyecto Memorión</h5>
-                <p class="card-text">Un juego de memoria interactivo para mejorar tus habilidades cognitivas.</p>
-                <a href="memorion.html" class="btn btn-outline-primary"
-                    aria-label="Leer más sobre Proyecto Memorión">Leer más</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Calculadora de Redes</h5>
-                <p class="card-text">Herramienta para calcular subredes y direcciones IP fácilmente.</p>
-                <a href="caculadora_redes.html" class="btn btn-outline-success"
-                    aria-label="Ver detalles sobre Calculadora de Redes">Ver detalles</a>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div class="row mt-4">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto Mapas</h5>
-                    <p class="card-text">Explora mapas interactivos con funcionalidades avanzadas.</p>
-                    <a href="mapas.html" class="btn btn-outline-warning" aria-label="Leer más sobre Proyecto Mapas">Leer
-                        más</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Nuevo Proyecto</h5>
-                    <p class="card-text">Próximamente: ¡Más proyectos interesantes!</p>
-                    <a href="#" class="btn btn-outline-secondary" aria-label="Explorar Nuevo Proyecto">Explorar</a>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Pie de página -->
-    <footer class="bg-dark text-white text-center py-4 mt-5"
+    <footer class="bg-dark text-white text-center py-4 mt-auto"
         style="position: relative; display: block; bottom: 0; width: 100%;">
         <ul class="list-inline mb-0"></ul>
         <li class="list-inline-item">
