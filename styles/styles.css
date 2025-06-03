@@ -6,6 +6,12 @@
       width: 100%;
 }
 
+body{
+    background-image: url('../images/fondo.png'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 100vh;
+}
 
 .logo_personal{
     width: 90px; height: 90px;
@@ -5212,7 +5218,8 @@ fieldset:disabled .btn {
 
 .accordion {
     --bs-accordion-color: var(--bs-body-color);
-    --bs-accordion-bg: var(--bs-body-bg);
+    --bs-accordion-bg: #2168612a;
+
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: var(--bs-border-color);
     --bs-accordion-border-width: var(--bs-border-width);
