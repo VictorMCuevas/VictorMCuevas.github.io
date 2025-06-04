@@ -1,20 +1,85 @@
 @charset "UTF-8";
-#footer{
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    z-index: 1;
+    background-color:#04433e;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.accordion {
     position: relative;
-     display: block; 
-     bottom: 0 !important;
-      width: 100%;
+    z-index: 1;
+}
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  } 
+
+
+  /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #04433e;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  } 
+  /* ---- stats.js ---- */
+  .count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  .js-count-particles {
+    font-size: 1.1em;
+  }
+  #stats,
+  .count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  .count-particles {
+    border-radius: 0 0 3px 3px;
+  }
+  
+
+
+
+#footer {
+    position: relative;
+    display: block;
+    bottom: 0 !important;
+    width: 100%;
 }
 
-body{
-    background-image: url('../images/fondo.png'); 
-            background-size: cover; 
-            background-position: center; 
-            height: 100vh;
-}
 
-.logo_personal{
-    width: 90px; height: 90px;
+.logo_personal {
+    width: 90px;
+    height: 90px;
 }
 
 /*!
@@ -22,8 +87,8 @@ body{
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- 
- 
+
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -100,7 +165,7 @@ body{
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
     --bs-body-color-rgb: 33, 37, 41;
-    --bs-body-bg: #a5f1ea;
+    --bs-body-bg: #04433e;
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-emphasis-color: #000;
     --bs-emphasis-color-rgb: 0, 0, 0;
@@ -5217,8 +5282,10 @@ fieldset:disabled .btn {
 }
 
 .accordion {
+    margin-left: 20%;
+    margin-right: 20%;
     --bs-accordion-color: var(--bs-body-color);
-    --bs-accordion-bg: #2168612a;
+    --bs-accordion-bg: #acf0e9ab;
 
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: var(--bs-border-color);
@@ -5229,11 +5296,11 @@ fieldset:disabled .btn {
     --bs-accordion-btn-padding-y: 1rem;
     --bs-accordion-btn-color: var(--bs-body-color);
     --bs-accordion-btn-bg: var(--bs-accordion-bg);
-    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon: url("../images/iconos/doble_abajo.gif");
+    --bs-accordion-btn-icon-width: 3rem;
     --bs-accordion-btn-icon-transform: rotate(-180deg);
     --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("../images/iconos/doble_abajo.gif");
     --bs-accordion-btn-focus-border-color: #86b7fe;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
     --bs-accordion-body-padding-x: 1.25rem;
@@ -5267,7 +5334,7 @@ fieldset:disabled .btn {
 
 .accordion-button:not(.collapsed) {
     color: var(--bs-accordion-active-color);
-    background-color: #acf0e9;
+    background-color: #acf0e96e;
     /*background-color: var(--bs-accordion-active-bg);*/
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)
 }
@@ -9441,7 +9508,10 @@ fieldset:disabled .btn {
 }
 
 .text-center {
-    text-align: center !important
+    text-align: center !important;
+    z-index: 1;
+    color: white;
+    
 }
 
 .text-decoration-none {
@@ -9483,7 +9553,7 @@ fieldset:disabled .btn {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: #000000;
+    color: rgb(255, 255, 255);
     /*rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important*/
 }
 
