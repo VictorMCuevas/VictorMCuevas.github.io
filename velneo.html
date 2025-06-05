@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proyecto Velneo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a href="index.html">
+                <img src="./images/logos/logo_vmbc2.png" alt="Logo Personal" class="logo_personal">
+            </a>
+            <span>
+                <a href="index.html" class="nav-link"><strong>Víctor M. Bartolomé <br>Web Developer</strong></a>
+
+            </span>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>Mis proyectos</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="memorion.html">
+                                    <h6>Proyecto Memorión</h6>
+                                </a></li>
+                            <li><a class="dropdown-item" href="caculadora_redes.html">
+                                    <h6>Proyecto Calculadora de
+                                        redes</h6>
+                                </a></li>
+                            <li><a class="dropdown-item" href="mapas.html">
+                                    <h6>Proyecto Mapas</h6>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index.html">Volver a Inicio</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5"></div>
+    <div class="text-center">
+        <h1 class="text-primary">Proyecto Velneo</h1>
+        <p class="lead">¡Rápido, sencillo y para todos!</p>
+    </div>
+
+    <br>
+
+    <!--Acordeon-->
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <h5>¿Que es Velneo?</h5>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <p style="text-align: justify;">Velneo es una plataforma de desarrollo de aplicaciones empresariales
+                        que permite crear software de
+                        manera rápida y sencilla. Está diseñada para facilitar la creación de aplicaciones sin necesidad
+                        de
+                        escribir código, lo que la hace accesible para usuarios sin experiencia técnica. Velneo ofrece
+                        una
+                        interfaz visual intuitiva y herramientas para gestionar bases de datos, interfaces de usuario y
+                        lógica empresarial, lo que permite a los desarrolladores centrarse en la funcionalidad y el
+                        diseño
+                        de sus aplicaciones.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h5>¿Que es el proyecto Velneo?</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p style="text-align: justify;">Como parte de las prácticas de primer curso del grado superior
+                            de Desarrollo de Aplicaciones Web,
+                            se nos propuso realizar un proyecto utilizando la plataforma Velneo. El objetivo era crear
+                            una
+                            aplicación que pudiera gestionar información de manera eficiente y sencilla, aprovechando
+                            las
+                            capacidades de Velneo para el desarrollo rápido de aplicaciones.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h5>¿Dónde conseguir Velneo?</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Si quieres utilizar Velneo, puedes obtener información en la <a
+                                href="https://velneo.com/">web oficial</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <h5>Imágenes de la aplicación</h5>
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <!--Inicio del carrousel-->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/capturas/velneo/1.PNG" class="d-block w-100"
+                                        alt="Pantalla en Velneo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/capturas/velneo/2.PNG" class="d-block w-100"
+                                        alt="Pantalla en Velneo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/capturas/velneo/3.PNG" class="d-block w-100"
+                                        alt="Pantalla en Velneo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/capturas/velneo/4.PNG" class="d-block w-100"
+                                        alt="Pantalla en Velneo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/capturas/velneo/5.PNG" class="d-block w-100"
+                                        alt="Pantalla en Velneo">
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><br></div>
+        <footer class="bg-dark text-white text-center py-4 mt-auto"
+            style="position: relative; display: block; bottom: 0; width: 100%;">
+            <ul class="list-inline mb-0"></ul>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/victor-m-bartolomé-64a977207" target="_blank">
+                    <img src="./images/logos/InBug-White.png" alt="Logo LinkedIn" style="width: 75px; height: 75px;">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://github.com/VictorMCuevas" target="_blank">
+                    <img src="./images/logos/github-mark-white.png" alt="Logo GitHub"
+                        style="width: 75px; height: 75px;">
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://codepen.io/VictorMCuevas" target="_blank">
+                    <img src="./images/logos/codepen_logo_white.png" alt="Logo Codepen"
+                        style="width: 75px; height: 75px;">
+                </a>
+            </li>
+            </ul>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+        <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>

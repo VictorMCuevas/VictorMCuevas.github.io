@@ -5,7 +5,7 @@ body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
     z-index: 1;
-    background-color:#04433e;
+    background-color: #04433e;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -15,14 +15,15 @@ body {
     position: relative;
     z-index: 1;
 }
-  canvas {
+
+canvas {
     display: block;
     vertical-align: bottom;
-  } 
+}
 
 
-  /* ---- particles.js container ---- */
-  #particles-js {
+/* ---- particles.js container ---- */
+#particles-js {
     position: absolute;
     z-index: 0;
     width: 100%;
@@ -32,9 +33,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-  } 
-  /* ---- stats.js ---- */
-  .count-particles {
+}
+
+/* ---- stats.js ---- */
+.count-particles {
     background: #000022;
     position: absolute;
     top: 48px;
@@ -48,24 +50,28 @@ body {
     padding-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-  }
-  .js-count-particles {
+}
+
+.js-count-particles {
     font-size: 1.1em;
-  }
-  #stats,
-  .count-particles {
+}
+
+#stats,
+.count-particles {
     -webkit-user-select: none;
     margin-top: 5px;
     margin-left: 5px;
-  }
-  #stats {
+}
+
+#stats {
     border-radius: 3px 3px 0 0;
     overflow: hidden;
-  }
-  .count-particles {
+}
+
+.count-particles {
     border-radius: 0 0 3px 3px;
-  }
-  
+}
+
 
 
 
@@ -3977,7 +3983,8 @@ fieldset:disabled .btn {
     --bs-dropdown-spacer: 0.125rem;
     --bs-dropdown-font-size: 1rem;
     --bs-dropdown-color: var(--bs-body-color);
-    --bs-dropdown-bg: var(--bs-body-bg);
+    --bs-dropdown-bg: #99ddd6;
+
     --bs-dropdown-border-color: var(--bs-border-color-translucent);
     --bs-dropdown-border-radius: var(--bs-border-radius);
     --bs-dropdown-border-width: var(--bs-border-width);
@@ -3987,7 +3994,7 @@ fieldset:disabled .btn {
     --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     --bs-dropdown-link-color: var(--bs-body-color);
     --bs-dropdown-link-hover-color: var(--bs-body-color);
-    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+    --bs-dropdown-link-hover-bg: #00a4ab;
     --bs-dropdown-link-active-color: #fff;
     --bs-dropdown-link-active-bg: #0d6efd;
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
@@ -9511,7 +9518,7 @@ fieldset:disabled .btn {
     text-align: center !important;
     z-index: 1;
     color: white;
-    
+
 }
 
 .text-decoration-none {
