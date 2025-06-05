@@ -12,33 +12,51 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- particles.js container -->
-    <div id="particles-js"></div> <!-- stats - count particles -->
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <div id="particles-js"></div>
 
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
+
             <a href="index.html">
                 <img src="./images/logos/logo_vmbc2.png" alt="Logo Personal" class="logo_personal">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span>
+                <a href="index.html" class="nav-link"><strong>Víctor M. Bartolomé <br>Web Developer</strong></a>
+
+            </span>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">
-                            <h6>Inicio</h6>
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link active" href="memorion.html">
-                            <h6>Proyecto Memorión</h6>
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="caculadora_redes.html">
-                            <h6>Proyecto Calculadora de
-                                redes</h6>
-                        </a></li>
-                    <li class="nav-item"><a class="nav-link" href="mapas.html">
-                            <h6>Proyecto Mapas</h6>
-                        </a></li>
+                    <li class="nav-item">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>Mis proyectos</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="caculadora_redes.html">
+                                    <h6>Proyecto Calculadora de
+                                        redes</h6>
+                                </a></li>
+                            <li><a class="dropdown-item" href="mapas.html">
+                                    <h6>Proyecto Mapas</h6>
+                                </a></li>
+                            <li><a class="dropdown-item" href="velneo.html">
+                                    <h6>Proyecto Velneo</h6>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index.html">Volver a Inicio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index_en.html"><img src="images/banderas/gb.png"
+                                alt="Logo Bandera Inglesa"></a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -129,7 +147,8 @@
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     <p>Puedes encontrar este proyecto en mi repositorio de <strong><a
-                            href="https://github.com/VictorMCuevas/ProyectoMemorion.git" target="_blank">GitHub</a></strong>.
+                                href="https://github.com/VictorMCuevas/ProyectoMemorion.git"
+                                target="_blank">GitHub</a></strong>.
                     </p>
                 </div>
             </div>
@@ -144,7 +163,8 @@
             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    ¡Puedes jugar clickando <strong><a href="https://victormcuevas.github.io/ProyectoMemorion/" target="_blank">aqui</a></strong>!
+                    ¡Puedes jugar clickando <strong><a href="https://victormcuevas.github.io/ProyectoMemorion/"
+                            target="_blank">aqui</a></strong>!
                 </div>
             </div>
         </div>
@@ -194,26 +214,23 @@
         </div>
 
     </div>
-
+    <div><br></div>
     <!-- Pie de página -->
     <footer class=" bg-dark text-white text-center py-4 mt-auto" id="footer">
         <ul class="list-inline mb-0"></ul>
         <li class="list-inline-item">
             <a href="https://www.linkedin.com/in/victor-m-bartolomé-64a977207" target="_blank">
-                <img src="./images/logos/InBug-White.png" alt="Logo LinkedIn"
-                    style="width: 75px; height: 75px;">
+                <img src="./images/logos/InBug-White.png" alt="Logo LinkedIn" style="width: 75px; height: 75px;">
             </a>
         </li>
         <li class="list-inline-item">
             <a href="https://github.com/VictorMCuevas" target="_blank">
-                <img src="./images/logos/github-mark-white.png" alt="Logo GitHub"
-                    style="width: 75px; height: 75px;">
+                <img src="./images/logos/github-mark-white.png" alt="Logo GitHub" style="width: 75px; height: 75px;">
             </a>
         </li>
         <li class="list-inline-item">
             <a href="https://codepen.io/VictorMCuevas" target="_blank">
-                <img src="./images/logos/codepen_logo_white.png" alt="Logo Codepen"
-                    style="width: 75px; height: 75px;">
+                <img src="./images/logos/codepen_logo_white.png" alt="Logo Codepen" style="width: 75px; height: 75px;">
             </a>
         </li>
         </ul>
