@@ -3920,7 +3920,7 @@ fieldset:disabled .btn {
 }
 
 .collapse:not(.show) {
-    display: none
+    display: contents;
 }
 
 .collapsing {
