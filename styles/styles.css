@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* ---- reset ---- */
+.mostrar{
+    display: contents;
+}
 body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
@@ -10,7 +13,9 @@ body {
     background-position: center;
     height: 100vh;
 }
-
+#navbarNav{
+    display: contents;
+}
 .accordion {
     position: relative;
     z-index: 1;
@@ -21,6 +26,12 @@ canvas {
     vertical-align: bottom;
 }
 
+@media screen and (max-width: 768px) {
+    #nombre {
+        display: none !important;
+    }
+    
+}
 
 /* ---- particles.js container ---- */
 #particles-js {
@@ -3920,7 +3931,7 @@ fieldset:disabled .btn {
 }
 
 .collapse:not(.show) {
-    display: contents;
+    display: none
 }
 
 .collapsing {
