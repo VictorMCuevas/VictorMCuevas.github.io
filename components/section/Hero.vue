@@ -17,8 +17,8 @@
       {{ HERO.subline }}
     </p>
     <div class="flex gap-4 items-center mt-8">
-      <Button label="View Work" to="#work" />
-      <Button label="Contact Me" to="#contact" variant="btn-dark" />
+      <Button label="Ver mi trabajo" to="#work" />
+      <Button label="Contacto" to="#contact" variant="btn-dark" />
     </div>
     </div>
 
@@ -34,24 +34,30 @@
         class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll hover:animate-pause"
       >
         <li v-for="item in WORK.works" class="overflow-hidden group">
-          <img
+          <a :href=item.live_demo target="_blank" rel="noopener noreferrer">
+            <img
             class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
             :src="'/images/work/' + item.thumbnails"
           />
+          </a>
+          
         </li>
 
         <li v-for="item in WORK.works" class="overflow-hidden group" aria-hidden="true">
-          <img
+          <a :href=item.live_demo target="_blank" rel="noopener noreferrer">
+            <img
             class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
             :src="'/images/work/' + item.thumbnails"
           />
+          </a>
+          
         </li>
       </ul>
      
     </div>
 
-    <div class="absolute -top-40 right-40 rotate-45 w-14 h-[800px] bg-blue-700 blur-[100px]"></div>
-    <div class="absolute top-0 left-0 w-screen h-screen index-bg">
+    <div class="absolute -top-40 right-40 rotate-45 w-14 h-[800px] bg-blue-700 blur-[100px] pointer-events-none"></div>
+    <div class="absolute top-0 left-0 w-screen h-screen index-bg pointer-events-none">
         <div class="h-0">
             <div class="star"></div>
             <div class="star" style="top: 80px; left: 800px; animation-delay: 3s;"></div>

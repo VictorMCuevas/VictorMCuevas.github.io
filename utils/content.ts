@@ -5,16 +5,21 @@ export const NAVLINKS= [
   },
   {
     label : 'Información',
-    url: '#about'
+    url: '#informacion'
+  },
+  {
+    label : 'Formación',
+    url: '#formacion'
+  },
+  {
+    label : 'Tecnologías',
+    url: '#service'
   },
   {
     label : 'Proyectos',
     url: '#work'
   },
-  // {
-  //   label : 'Service',
-  //   url: '/#service'
-  // },
+  
   
 ]
 
@@ -35,87 +40,132 @@ export const HERO = {
 }
 
 export const SERVICE = {
-  label: 'Skils',
+  label: 'Skills',
   headline: `Tecnologías.`,
   subline: `Tecnologías con las que he trabajado para desarrollar proyectos web, desde la interfaz hasta la lógica y el diseño de experiencias de usuario.`,
   services: [
     {
-      name: "Vue 3",
+      name: "Vue 3 & Nuxt 3",
       icon: 'Code',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      description: 'Desarrollo de SPAs y aplicaciones SSR con Vue 3 y Nuxt 3, usando Composition API, Pinia y enrutamiento dinámico.',
       thumbnails: ''
     },
     {
-      name: "Mobile Development",
-      icon: 'MobileProgramming',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
-      thumbnails: 'https://cdn.dribbble.com/userupload/36796487/file/original-436c64a72733941273f9fd1f4d994883.jpg?resize=752x&vertical=center'
+      name: "Laravel & PHP",
+      icon: 'ExportSquare',
+      description: 'Construcción de backends y frontend con Laravel: autenticación, gestión de ficheros, generación de PDFs y modelos Eloquent.',
+      thumbnails: ''
     },
     {
-      name: "UI/UX Designer",
+      name: "Tailwind CSS",
       icon: 'PenTool2',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      description: 'Uso de clases de utilidad para construir interfaces responsivas en proyectos reales, apoyándome en la documentación oficial.',
       thumbnails: ''
     },
-   
+    {
+      name: "HTML & CSS",
+      icon: 'PenTool2',
+      description: 'Maquetación semántica con HTML5 y estilado con CSS3: flexbox, grid y diseño responsive sin frameworks.',
+      thumbnails: ''
+    },
+    {
+      name: "JavaScript",
+      icon: 'MobileProgramming',
+      description: 'Lógica de frontend con JavaScript: manipulación del DOM, eventos, fetch y uso de APIs externas.',
+      thumbnails: ''
+    },
+    {
+      name: "SQL",
+      icon: 'Data',
+      description: 'Diseño y consulta de bases de datos relacionales con MySQL: modelado de tablas, relaciones y consultas aplicadas en proyectos reales.',
+      thumbnails: ''
+    },
   ]
 }
 
 export const WORK = {
-  label: 'work',
-  headline: 'Custom design solutions for your requirements.',
-  subline: 'I specialize in crafting user-centered solutions for businesses and individuals. Let’s create something extraordinary together.',
+  label: 'proyectos',
+  headline: 'Proyectos personales.',
+  subline: 'Echa un vistazo a algunos de mis trabajos en el desarrollo web.',
   works: [
     {
-      name: "Cafe Street - Landing Page",
-      live_demo: '#',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
-      thumbnails: 'cafestreet-landingpage.webp',
-      type: 'landing page'
+      name: "Njord",
+      live_demo: 'https://njordride.es/',
+      description: 'Aplicación pensada para motoristas. Permite creación de usuarios, subida de archivos GPX, visualización en mapa de los archivos y creación de rutas. Aplicación creada con frameworks Laravel y Vue.js.',
+      thumbnails: 'njord.png',
+      type: 'Aplicación web'
     },
     {
-      name: "FurniLux",
-      live_demo: '#',
-      description: 'Make your home comfortable with best furniture.',
-      thumbnails: 'furnilux-landingpage.webp',
-      type: 'landing page'
+      name: "VicBike",
+      live_demo: 'https://vicbike.alwaysdata.net/',
+      description: 'Simulación de web para un concesionario multimarca de motocicletas. Permite registrar usuarios y simular la compra de motocicletas, con generación de factura en PDF. Mi primer trabajo en Laravel.',
+      thumbnails: 'vicbike.png',
+      type: 'Proyecto en Laravel'
     },
     {
-      name: "Let's Food UI Kit",
-      live_demo: '#',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
-      thumbnails: 'letsfood-landingpage.webp',
-      type: 'Web Design'
+      name: "Proyecto Mapas",
+      live_demo: 'https://victormcuevas.github.io/ProyectoMapas/',
+      description: 'Uno de mis primeros proyectos utilizando JavaScript. Muestra un mapa con marcadores predeterminados y permite crear marcadores personalizados.',
+      thumbnails: 'mapas.png',
+      type: 'Página web'
     },
     {
-      name: "Creative Agency",
+      name: "Muestario de mensajes WhatsApp",
       live_demo: '#',
-      description: 'This website is to improve your business as a software house and reach more customers.',
-      thumbnails: 'creativeagency-landingpage.webp',
-      type: 'Web Company'
+      description: 'Muestrario web de diferentes tipos de mensajes que se pueden enviar desde una aplicación web, haciendo uso de la API de Meta.',
+      thumbnails: 'api_meta.png',
+      type: 'Página Web'
     },
-    {
-      name: "Login Register Design",
-      live_demo: '#',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
-      thumbnails: 'loginregister-design.webp',
-      type: 'UI Design'
-    },
-    {
-      name: "IRATOON - Streaming App",
-      live_demo: '#',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
-      thumbnails: 'iratoon-mobileapp.webp',
-      type: 'Mobile App'
-    },
+    // {
+    //   name: "Login Register Design",
+    //   live_demo: '#',
+    //   description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
+    //   thumbnails: 'loginregister-design.webp',
+    //   type: 'UI Design'
+    // },
+    // {
+    //   name: "IRATOON - Streaming App",
+    //   live_demo: '#',
+    //   description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
+    //   thumbnails: 'iratoon-mobileapp.webp',
+    //   type: 'Mobile App'
+    // },
   ]
 }
 
 export const ABOUT = {
-  label: 'Let me introduce my self',
+  label: 'Información personal',
   introduce: [
-    `Mi nombre es ${PROFILE.fullname}, and I am a passionate ${PROFILE.role}. I specialize in creating seamless and visually appealing user interfaces, combining design and development to enhance user experiences.`,
-    "I love turning ideas into interactive and functional web applications. Excited to collaborate and build amazing digital products together!"
+    `Mi nombre es ${PROFILE.fullname}, soy un ${PROFILE.role}. Me considero una persona responsable, con interés genuino por la programación y capacidad para abordar problemas de forma creativa. Valoro el trabajo en equipo y procuro aportar siempre una actitud colaborativa y proactiva.  Mi objetivo es seguir formándome, participar en proyectos que me permitan aplicar lo aprendido y crecer como desarrollador`
+  ]
+}
+
+export const TIMELINE = {
+  label: 'Formación',
+  title: 'Mi formación',
+  description: 'Formación y experiencia que me han convertido en el desarrollador que soy hoy.',
+  items: [
+    {
+      id: 'item1',
+      label: '2026',
+      title: 'Técnico Superior en Desarrollo de Aplicaciones Web',
+      subtitle: '2024 - 2026',
+      description: 'Competencias en desarrollo de aplicaciones web, gestión de bases de datos y configuración de entornos de desarrollo. Capacitado para crear interfaces dinámicas, seguras y adaptadas a distintos dispositivos, aplicando buenas prácticas de usabilidad, despliegue y mantenimiento de software.'
+    },
+    {
+      id: 'item2',
+      label: '2019',
+      title: 'Técnico Superior en Administración de Sistemas Informáticos en Red',
+      subtitle: '2017 - 2019',
+      description: 'Competencias en administración de sistemas operativos, gestión de servicios de red y despliegue de bases de datos en entornos empresariales. Capacitado para configurar infraestructuras de red, optimizar el rendimiento del hardware y garantizar la disponibilidad, seguridad y correcto funcionamiento de los sistemas informáticos. Perfil orientado a la resolución de incidencias, la mejora continua y la adaptación a entornos tecnológicos.'
+    },
+    {
+      id: 'item3',
+      label: '2017',
+      title: 'Técnico en Sistemas Microinformáticos y Redes',
+      subtitle: '2015 - 2017',
+      description: 'Competencias en instalación, configuración y mantenimiento de sistemas informáticos y redes locales en pequeños entornos. Capacitado para montar y reparar equipos, gestionar software base y de aplicación, y asegurar el correcto funcionamiento de servicios en red con criterios de calidad y seguridad. Perfil orientado a la resolución de incidencias, la atención al usuario, el trabajo en equipo y la adaptación a entornos tecnológicos.'
+    },
   ]
 }
 
