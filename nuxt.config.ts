@@ -4,10 +4,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Rauliqbal | Front-End Developer and UI Designer'
+      title: 'Víctor M. | Desarrollador Web',
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/images/logo.png' }
+      ]
     }
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
+  vite: {
+    optimizeDeps: {
+      exclude: ['vue-iconsax']
+    }
+  },
   googleFonts: {
     families: {
       Poppins: [300, 400, 500, 600, 700], 
