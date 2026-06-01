@@ -136,7 +136,7 @@ export const WORK = {
 export const ABOUT = {
   label: 'Información personal',
   introduce: [
-    `Mi nombre es ${PROFILE.fullname}, soy un ${PROFILE.role}. Me considero una persona responsable, con interés genuino por la programación y capacidad para abordar problemas de forma creativa. Valoro el trabajo en equipo y procuro aportar siempre una actitud colaborativa y proactiva.  Mi objetivo es seguir formándome, participar en proyectos que me permitan aplicar lo aprendido y crecer como desarrollador`
+    `Mi nombre es ${PROFILE.fullname}, soy ${PROFILE.role}. Me gustan los proyectos donde el código tiene que resolver algo concreto y donde aprender forma parte del día a día. Trabajo bien en equipo, me adapto rápido a entornos nuevos y disfruto metiéndome en problemas que no tienen una solución evidente. Busco incorporarme a un equipo donde pueda aportar desde el principio y crecer con cada proyecto.`
   ]
 }
 

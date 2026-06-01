@@ -55,7 +55,7 @@ watch(height, (newHeight) => {
         class="flex justify-start pt-10 md:gap-10 md:pt-20"
       >
         <div
-          class="sticky top-40 z-40 flex max-w-xs flex-col items-center self-start md:w-full md:flex-row lg:max-w-sm"
+          class="sticky top-40 z-40 flex w-14 max-w-xs flex-col items-center self-start md:w-full md:flex-row lg:max-w-sm"
         >
           <div
             class="absolute left-3 flex size-10 items-center justify-center rounded-full bg-dark border border-white/10 md:left-3"
