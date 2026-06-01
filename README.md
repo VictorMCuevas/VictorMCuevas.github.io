@@ -51,6 +51,10 @@ pnpm build
 npm run build
 ```
 
+## Basado en
+
+Este proyecto está basado en la plantilla [Super Portfolio](https://github.com/Rauliqbal/super-portfolio) de [Rauliqbal](https://github.com/Rauliqbal).
+
 ## Contacto
 
 Victor M. Cuevas — [victormbartolomedev@gmail.com](mailto:victormbartolomedev@gmail.com)
