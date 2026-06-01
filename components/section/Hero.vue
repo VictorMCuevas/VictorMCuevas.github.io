@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="hero" class="container relative py-40">
+  <div id="hero" class="container relative py-40 bottom ">
     <!-- Content -->
     <div class="z-10 relative flex flex-col items-center">
     <div class="badge  flex items-center gap-2"> 
@@ -30,7 +30,7 @@
       <div
         class="h-full w-24 bg-gradient-to-l from-dark to-transparent right-0 inset-y-0 absolute z-10"
       ></div>
-      <ul
+      <!-- <ul
         class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll hover:animate-pause"
       >
         <li v-for="item in WORK.works" class="overflow-hidden group">
@@ -52,7 +52,7 @@
           </a>
           
         </li>
-      </ul>
+      </ul> -->
      
     </div>
 
@@ -168,5 +168,9 @@
             box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1);
             -webkit-transform-origin: 0% 100%;
             transform-origin: 0% 100%
+        }
+
+        .bottom{
+          padding-bottom: 5em !important;
         }
     </style>
