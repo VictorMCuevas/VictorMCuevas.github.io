@@ -18,12 +18,13 @@
        <div>
         <div>
           <div class="inline-flex p-2 rounded-lg border border-primary shadow-[0px_0px_15px_-3px_rgba(85,_132,_255,_0.5)]">
-              <VsxIcon
+              <!-- <VsxIcon
                 :iconName="item.icon"
                 :size="24"
                 color="#5584FF"
                 type="linear"
-              />
+              /> -->
+              <Icon :name="item.icon" size="32"/>
             </div>
         </div>
        

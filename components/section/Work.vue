@@ -32,7 +32,7 @@
            </NuxtLink>
            </div>
           <div class="bg-gradient-to-r w-44 h-[1px] from-transparent via-blue-500 to-transparent my-2"></div>
-          <p class="paragpraph text-gray-400">
+          <p class="paragpraph text-gray-400 text-justify">
             {{ item.description }}
           </p>
           </div>

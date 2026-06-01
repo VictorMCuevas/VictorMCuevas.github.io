@@ -3,46 +3,57 @@
 
 <template>
   <LayoutScrollSmooth>
-    <section class="max-w-5xl mx-auto px-4 lg:px-0">
-    <div class="mesh-gradient flex items-center flex-col rounded-3xl border bg-[#0b061a] border-white/10 p-10 relative">
+    <section id="cta" class="max-w-5xl mx-auto px-4 lg:px-0">
+      <div
+        class="mesh-gradient flex items-center flex-col rounded-3xl border bg-[#0b061a] border-white/10 p-10 relative">
         <div class="flex flex-col items-center">
           <h2 class="text-center !max-w-xl section-title ">{{ CTA.label }}</h2>
-        <p class="paragraph max-w-xl text-center mt-8">
-          {{ CTA.description }}
-        </p>
-        <Button class="mt-10" to="#" variant="btn-primary" label="Start Collaboration"/>
-
-        <div class="my-8 w-4/5 h-[1px] bg-gradient-to-r from-white/0 via-white/20 to-white/0 "></div>
-
-        <div class="flex items-center gap-4 lg:gap-10">
-          <NuxtLink
-          class="text-white/60 group text-sm lg:text-base"
-          v-for="link in NAVLINKS"
-          :to="link.url"
-        >
-          <div class="relative overflow-hidden">
-            <p
-              class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
-            >
-              {{ link.label }}
-            </p>
-            <p
-              class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
-            >
-              {{ link.label }}
-            </p>
+          <p class="paragraph max-w-xl text-center mt-8">
+            {{ CTA.description }}
+          </p>
+          <!-- <Button class="mt-10" to="#" variant="btn-primary" label="Start Collaboration"/> -->
+          <div class="flex items-center gap-4 contacto">
+            <a href="https://github.com/VictorMCuevas" target="_blank" rel="noopener noreferrer">
+              <Icon name="mdi:github" size="60" class="text-white" />
+            </a>
+            <a href="mailto:victormbartolomedev@gmail.com" target="_blank" rel="noopener noreferrer">
+              <Icon name="material-symbols:mail" size="60" class="text-white" />
+            </a>
+            <a href="https://www.linkedin.com/in/victor-m-bartolom%C3%A9-64a977207/" target="_blank"
+              rel="noopener noreferrer">
+              <Icon name="mdi:linkedin" size="60" class="text-white" />
+            </a>
           </div>
-        </NuxtLink>
-        </div>
+          <div class="my-8 w-4/5 h-[1px] bg-gradient-to-r from-white/0 via-white/20 to-white/0 "></div>
+
+          <div class="flex items-center gap-4 lg:gap-10">
+            <NuxtLink class="text-white/60 group text-sm lg:text-base" v-for="link in NAVLINKS" :to="link.url">
+              <div class="relative overflow-hidden">
+                <p class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">
+                  {{ link.label }}
+                </p>
+                <p class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]">
+                  {{ link.label }}
+                </p>
+              </div>
+            </NuxtLink>
+          </div>
         </div>
 
-        <p class="text-sm text-white/30 text-center mt-8">&copy; Copyright <NuxtLink to="https://github.com/VictorMCuevas" target="_blank">Víctor M. Bartolomé</NuxtLink> 2026</p>
+        <p class="text-sm text-white/30 text-center mt-8">&copy; Copyright <NuxtLink
+            to="https://github.com/VictorMCuevas" target="_blank">Víctor M. Bartolomé</NuxtLink> 2026</p>
 
         <div
-          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0"
-        ></div>
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0">
+        </div>
         <div class="-z-10 absolute bottom-4 w-96 bg-[#0b50e5] rounded-full blur-2xl h-40 animate-pulse"></div>
-    </div>
-  </section>
+      </div>
+    </section>
   </LayoutScrollSmooth>
 </template>
+
+<style>
+.contacto {
+  margin-top: 2em;
+}
+</style>

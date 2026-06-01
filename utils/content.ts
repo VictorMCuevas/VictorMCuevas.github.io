@@ -46,37 +46,37 @@ export const SERVICE = {
   services: [
     {
       name: "Vue 3 & Nuxt 3",
-      icon: 'Code',
+      icon: 'logos:vue',
       description: 'Desarrollo de SPAs y aplicaciones SSR con Vue 3 y Nuxt 3, usando Composition API, Pinia y enrutamiento dinámico.',
       thumbnails: ''
     },
     {
       name: "Laravel & PHP",
-      icon: 'ExportSquare',
+      icon: 'logos:laravel',
       description: 'Construcción de backends y frontend con Laravel: autenticación, gestión de ficheros, generación de PDFs y modelos Eloquent.',
       thumbnails: ''
     },
     {
       name: "Tailwind CSS",
-      icon: 'PenTool2',
+      icon: 'logos:tailwindcss-icon',
       description: 'Uso de clases de utilidad para construir interfaces responsivas en proyectos reales, apoyándome en la documentación oficial.',
       thumbnails: ''
     },
     {
       name: "HTML & CSS",
-      icon: 'PenTool2',
+      icon: 'vscode-icons:file-type-html',
       description: 'Maquetación semántica con HTML5 y estilado con CSS3: flexbox, grid y diseño responsive sin frameworks.',
       thumbnails: ''
     },
     {
       name: "JavaScript",
-      icon: 'MobileProgramming',
+      icon: 'logos:javascript',
       description: 'Lógica de frontend con JavaScript: manipulación del DOM, eventos, fetch y uso de APIs externas.',
       thumbnails: ''
     },
     {
       name: "SQL",
-      icon: 'Data',
+      icon: 'logos:mysql',
       description: 'Diseño y consulta de bases de datos relacionales con MySQL: modelado de tablas, relaciones y consultas aplicadas en proyectos reales.',
       thumbnails: ''
     },
@@ -170,6 +170,6 @@ export const TIMELINE = {
 }
 
 export const CTA = {
-  label: 'Let’s Build Something Great Together',
-  description: 'Need a clean, functional UI? I’m here to help bring your vision to life—simple, responsive, and user-focused.'
+  label: 'Contacto',
+  description: 'Si te han gustado mis proyectos, puedes ver el resto en mi perfil de GitHub o ponerte en contacto conmigo.'
 }

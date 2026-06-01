@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image', 'nuxt-icon'],
   vite: {
     optimizeDeps: {
       exclude: ['vue-iconsax']
