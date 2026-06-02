@@ -27,7 +27,7 @@
               <h3 class="text-white text-lg lg:text-xl tracking-wide font-bold ">{{ item.name }}</h3>
               <p class=" font-medium uppercase tracking-wide text-gray-600">{{item.type}}</p>
             </div>
-           <NuxtLink :to="item.live_demo">
+           <NuxtLink :to="item.live_demo" target="_blank" rel="noopener noreferrer">
             <VsxIcon class="text-gray-400" iconName="ExportSquare" :size="24"  type="linear" />
            </NuxtLink>
            </div>
