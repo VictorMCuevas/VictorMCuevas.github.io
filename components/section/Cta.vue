@@ -19,7 +19,7 @@
             <a href="mailto:victormbartolomedev@gmail.com" target="_blank" rel="noopener noreferrer">
               <Icon name="material-symbols:mail" size="60" class="text-white" />
             </a>
-            <a href="https://www.linkedin.com/in/victor-m-bartolom%C3%A9-64a977207/" target="_blank"
+            <a href="https://www.linkedin.com/in/victor-m-bartolome/" target="_blank"
               rel="noopener noreferrer">
               <Icon name="mdi:linkedin" size="60" class="text-white" />
             </a>

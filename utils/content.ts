@@ -111,7 +111,7 @@ export const WORK = {
     },
     {
       name: "Muestario de mensajes WhatsApp",
-      live_demo: '#',
+      live_demo: 'https://victormcuevas.github.io/muestrario_mensajes_whatsapp/',
       description: 'Muestrario web de diferentes tipos de mensajes que se pueden enviar desde una aplicación web, haciendo uso de la API de Meta.',
       thumbnails: 'api_meta.png',
       type: 'Página Web'
