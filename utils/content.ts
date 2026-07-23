@@ -102,13 +102,13 @@ export const WORK = {
       thumbnails: 'vicbike.png',
       type: 'Proyecto en Laravel'
     },
-    {
-      name: "Proyecto Mapas",
-      live_demo: 'https://victormcuevas.github.io/ProyectoMapas/',
-      description: 'Uno de mis primeros proyectos utilizando JavaScript. Muestra un mapa con marcadores predeterminados y permite crear marcadores personalizados.',
-      thumbnails: 'mapas.png',
-      type: 'Página web'
-    },
+    // {
+    //   name: "Proyecto Mapas",
+    //   live_demo: 'https://victormcuevas.github.io/ProyectoMapas/',
+    //   description: 'Uno de mis primeros proyectos utilizando JavaScript. Muestra un mapa con marcadores predeterminados y permite crear marcadores personalizados.',
+    //   thumbnails: 'mapas.png',
+    //   type: 'Página web'
+    // },
     {
       name: "Muestario de mensajes WhatsApp",
       live_demo: 'https://victormcuevas.github.io/muestrario_mensajes_whatsapp/',
