@@ -75,7 +75,7 @@ export const SERVICE = {
       thumbnails: ''
     },
     {
-      name: "SQL",
+      name: "MySQL",
       icon: 'logos:mysql',
       description: 'Diseño y consulta de bases de datos relacionales con MySQL: modelado de tablas, relaciones y consultas aplicadas en proyectos reales.',
       thumbnails: ''
@@ -136,14 +136,15 @@ export const WORK = {
 export const ABOUT = {
   label: 'Información personal',
   introduce: [
-    `Mi nombre es ${PROFILE.fullname}, soy ${PROFILE.role}. Me gustan los proyectos donde el código tiene que resolver algo concreto y donde aprender forma parte del día a día. Trabajo bien en equipo, me adapto rápido a entornos nuevos y disfruto metiéndome en problemas que no tienen una solución evidente. Busco incorporarme a un equipo donde pueda aportar desde el principio y crecer con cada proyecto.`
+    `Mi nombre es ${PROFILE.fullname}, soy ${PROFILE.role}. Después de años en trabajos que no me motivaban, decidí dar el paso, apostar por mi mismo y formarme en lo que siempre me había gustado, la informática.`,
+    ` Cuando no estoy curioseando, probablemente esté jugando a algún videojuego, saliendo con mi cámara a hacer fotografías o disfrutando de una ruta en moto.`
   ]
 }
 
 export const TIMELINE = {
   label: 'Formación',
   title: 'Mi formación',
-  description: 'Formación y experiencia que me han convertido en el desarrollador que soy hoy.',
+  description: 'Esta es mi formación actual, aunque sigo formándome cada día.',
   items: [
     {
       id: 'item1',
