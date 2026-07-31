@@ -13,7 +13,11 @@ import Timeline from '../Timeline.vue';
                     <div class="text-white pb-10">
                         <h3 class="font-bold text-xl mb-1">{{ item.title }}</h3>
                         <p class="text-sm text-neutral-400 mb-3">{{ item.subtitle }}</p>
-                        <p class="text-neutral-300 text-sm leading-relaxed text-justify">{{ item.description }}</p>
+                        <ul class="list-disc pl-6">
+                            <li v-for="descripcion in item.description" :key="descripcion" class="text-neutral-300 text-sm leading-relaxed text-justify">
+                                {{ descripcion }}
+                            </li>
+                        </ul>
                     </div>
                 </template>
             </Timeline>

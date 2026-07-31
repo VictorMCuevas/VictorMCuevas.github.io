@@ -35,8 +35,8 @@ export const PROFILE = {
 
 export const HERO = {
   badge: 'Disponible como desarrollador junior',
-  headline: `Hola, soy ${PROFILE.firstname},¡Bienvenid@ a mi porfolio!`,
-  subline : `Soy un ${PROFILE.role} enfocado en la creación de aplicaciones web responsive, modernas e intuitivas.`
+  headline: `Hola soy ${PROFILE.firstname}, ${PROFILE.role}. `,
+  subline : `Si has llegado hasta aquí, te invito a conocer un poco más sobre mí y los proyectos en los que he trabajado.`
 }
 
 export const SERVICE = {
@@ -45,21 +45,21 @@ export const SERVICE = {
   subline: `Tecnologías con las que he trabajado para desarrollar proyectos web, desde la interfaz hasta la lógica y el diseño de experiencias de usuario.`,
   services: [
     {
-      name: "Vue 3 & Nuxt 3",
+      name: "Vue 3",
       icon: 'logos:vue',
-      description: 'Desarrollo de SPAs y aplicaciones SSR con Vue 3 y Nuxt 3, usando Composition API, Pinia y enrutamiento dinámico.',
+      description: 'Desarrollo de SPAs con Vue 3 utilizando Composition API, Pinia y enrutamiento dinámico.',
       thumbnails: ''
     },
     {
       name: "Laravel & PHP",
       icon: 'logos:laravel',
-      description: 'Construcción de backends y frontend con Laravel: autenticación, gestión de ficheros, generación de PDFs y modelos Eloquent.',
+      description: 'Construcción de backends, frontend y APIs con Laravel.',
       thumbnails: ''
     },
     {
       name: "Tailwind CSS",
       icon: 'logos:tailwindcss-icon',
-      description: 'Uso de clases de utilidad para construir interfaces responsivas en proyectos reales, apoyándome en la documentación oficial.',
+      description: 'Uso de clases de utilidad para construir interfaces responsive, apoyándome en la documentación oficial.',
       thumbnails: ''
     },
     {
@@ -77,7 +77,7 @@ export const SERVICE = {
     {
       name: "MySQL",
       icon: 'logos:mysql',
-      description: 'Diseño y consulta de bases de datos relacionales con MySQL: modelado de tablas, relaciones y consultas aplicadas en proyectos reales.',
+      description: 'Diseño y consulta de bases de datos relacionales con MySQL: modelado de tablas, relaciones y consultas.',
       thumbnails: ''
     },
   ]
@@ -151,21 +151,34 @@ export const TIMELINE = {
       label: '2026',
       title: 'Técnico Superior en Desarrollo de Aplicaciones Web',
       subtitle: '2024 - 2026',
-      description: 'Competencias en desarrollo de aplicaciones web, gestión de bases de datos y configuración de entornos de desarrollo. Capacitado para crear interfaces dinámicas, seguras y adaptadas a distintos dispositivos, aplicando buenas prácticas de usabilidad, despliegue y mantenimiento de software.'
+      description: [
+                      'Desarrollo de aplicaciones web',
+                      'Gestión de bases de datos',
+                      'Configuración de entornos de desarrollo'
+                    ]
     },
     {
       id: 'item2',
       label: '2019',
       title: 'Técnico Superior en Administración de Sistemas Informáticos en Red',
       subtitle: '2017 - 2019',
-      description: 'Competencias en administración de sistemas operativos, gestión de servicios de red y despliegue de bases de datos en entornos empresariales. Capacitado para configurar infraestructuras de red, optimizar el rendimiento del hardware y garantizar la disponibilidad, seguridad y correcto funcionamiento de los sistemas informáticos. Perfil orientado a la resolución de incidencias, la mejora continua y la adaptación a entornos tecnológicos.'
+      description: [
+                      'Administración de sistemas operativos',
+                      'Gestión de servicios de red',
+                      'Configuración de infraestructuras de red'
+                    ]
     },
     {
       id: 'item3',
       label: '2017',
       title: 'Técnico en Sistemas Microinformáticos y Redes',
       subtitle: '2015 - 2017',
-      description: 'Competencias en instalación, configuración y mantenimiento de sistemas informáticos y redes locales en pequeños entornos. Capacitado para montar y reparar equipos, gestionar software base y de aplicación, y asegurar el correcto funcionamiento de servicios en red con criterios de calidad y seguridad. Perfil orientado a la resolución de incidencias, la atención al usuario, el trabajo en equipo y la adaptación a entornos tecnológicos.'
+      description:[
+                    'Instalación, configuración y mantenimiento de sistemas informáticos',
+                    'Despliegue redes locales en pequeños entornos',
+                    'Montaje y reparación de equipos',
+                    'Gestión de software base y de aplicación'
+      ] 
     },
   ]
 }
