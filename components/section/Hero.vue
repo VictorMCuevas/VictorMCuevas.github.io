@@ -13,7 +13,7 @@
     >
       {{ HERO.headline }}
     </h1>
-    <p class="paragraph mt-4 text-center max-w-xl mx-auto">
+    <p class="paragraph mt-4 text-center max-w-xl mx-auto subtext">
       {{ HERO.subline }}
     </p>
     <div class="flex gap-4 items-center mt-8">
@@ -173,5 +173,9 @@
 
         .bottom{
           padding-bottom: 5em !important;
+        }
+        .subtext{
+          margin-top: 3%;
+          margin-bottom: 3%;
         }
     </style>
