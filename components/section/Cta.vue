@@ -40,7 +40,7 @@
           </div>
         </div>
 
-        <p class="text-sm text-white/30 text-center mt-8">&copy; Copyright <NuxtLink
+        <p class="text-sm text-white/30 text-center mt-8"><NuxtLink
             to="https://github.com/VictorMCuevas" target="_blank">Víctor M. Bartolomé</NuxtLink> 2026</p>
 
         <div
