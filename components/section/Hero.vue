@@ -19,6 +19,7 @@
     <div class="flex gap-4 items-center mt-8">
       <Button label="Ver mi trabajo" to="#work" />
       <Button label="Contacto" to="#cta" variant="btn-dark" />
+      <Button label="Descargar CV" as="a" href="/cv/CV_Victor_M_Bartolome_Cuevas.pdf" download="CV_Victor_M_Bartolome_Cuevas.pdf" />
     </div>
     </div>
 
