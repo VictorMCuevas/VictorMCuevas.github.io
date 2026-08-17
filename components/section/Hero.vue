@@ -16,7 +16,7 @@
     <p class="paragraph mt-4 text-center max-w-xl mx-auto subtext">
       {{ HERO.subline }}
     </p>
-    <div class="flex gap-4 items-center mt-8">
+    <div class="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center mt-8">
       <Button label="Ver mi trabajo" to="#work" />
       <Button label="Contacto" to="#cta" variant="btn-dark" />
       <Button label="Descargar CV" as="a" href="/cv/CV_Victor_M_Bartolome_Cuevas.pdf" download="CV_Victor_M_Bartolome_Cuevas.pdf" />

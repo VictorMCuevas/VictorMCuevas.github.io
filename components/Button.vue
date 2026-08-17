@@ -13,7 +13,7 @@ defineProps<{
   <NuxtLink
     v-if="to"
     :to="to"
-    class="group relative overflow-hidden inline-flex"
+    class="group relative overflow-hidden inline-flex w-full sm:w-auto justify-center px-6 py-3"
     :class="variant ? 'btn-dark' : 'btn-primary'"
   >
     <div
@@ -22,13 +22,13 @@ defineProps<{
 
     <div class="relative overflow-hidden">
       <p
-        class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+        class="whitespace-nowrap group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
       >
         {{ label }}
       </p>
 
       <p
-        class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+        class="absolute top-7 left-0 whitespace-nowrap group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
       >
         {{ label }}
       </p>
@@ -40,7 +40,7 @@ defineProps<{
     v-else-if="href"
     :href="href"
     :download="download"
-    class="group relative overflow-hidden inline-flex"
+    class="group relative overflow-hidden inline-flex w-full sm:w-auto justify-center px-6 py-3"
     :class="variant ? 'btn-dark' : 'btn-primary'"
   >
     <div
@@ -49,13 +49,13 @@ defineProps<{
 
     <div class="relative overflow-hidden">
       <p
-        class="group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+        class="whitespace-nowrap group-hover:-translate-y-7 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
       >
         {{ label }}
       </p>
 
       <p
-        class="absolute top-7 left-0 group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
+        class="absolute top-7 left-0 whitespace-nowrap group-hover:top-0 duration-500 ease-[cubic-bezier(0.19,1,0.22,1)]"
       >
         {{ label }}
       </p>
